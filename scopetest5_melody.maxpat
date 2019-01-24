@@ -815,7 +815,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 457.0, 420.0, 82.0, 22.0 ],
-					"text" : "adoutput~ 3 4"
+					"text" : "adoutput~ 1 2"
 				}
 
 			}
@@ -1284,7 +1284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.0, 601.0, 55.0, 22.0 ],
-					"text" : "dac~ 3 4"
+					"text" : "dac~ 1 2"
 				}
 
 			}

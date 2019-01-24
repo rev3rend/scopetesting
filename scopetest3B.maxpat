@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 872.0, 345.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
@@ -409,8 +421,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 946.0, 391.0, 55.0, 22.0 ],
-					"text" : "dac~ 3 4"
+					"patching_rect" : [ 941.0, 391.0, 55.0, 22.0 ],
+					"text" : "dac~ 1 2"
 				}
 
 			}
@@ -967,6 +979,13 @@
 					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
